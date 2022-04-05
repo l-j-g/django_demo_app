@@ -18,3 +18,7 @@
 # Dont really use Django for Templating, but to build APIs that return data.
 
 # How to debug using jango & VS code
+
+# Install debug toolbar >
+# https://www.google.com/search?client=firefox-b-d&q=django+debug+toolbar
+# only works on full html documents.
