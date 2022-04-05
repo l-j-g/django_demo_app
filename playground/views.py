@@ -15,3 +15,11 @@ def calculate():
 def say_hello(request):
     x = calculate()
     return render(request, 'hello.html', {'name': 'lachlan'})
+
+
+def home(request):
+    return render(request, 'home.html')
+
+
+def room(request):
+    return render(request, 'room.html')
